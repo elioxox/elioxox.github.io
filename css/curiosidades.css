@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open_sansregular', sans-serif;
+}
+
+header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header img {
+    max-width: 100%;
+    display: block;
+}
+
+header h1{
+    display: block;
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.titulo {
+    animation: flotar 3s linear infinite;
+}
+
+.barra {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajuste para que la imagen tenga el ancho completo del contenedor */
+    height: auto; /* Ajuste para mantener la proporción de la imagen */
+    z-index: -1;
+}
+
+
+main {
+   
+    height: relative;
+    width: 100%;
+    margin-top: 0;
+
+  
+}
+
+
+nav {
+    background-color: rgb(43,49,21, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(0.6px);
+    display: block;
+    z-index: 9999;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 35%;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+.logo {
+            margin-right: auto; /* Empuja el logo hacia la izquierda */
+            padding-left: 2%;
+        }
+.menu ul{
+    display: flex;
+}
+.menu li {
+            margin-right: 20px; /* Espaciado entre elementos del menú */
+        }
+.menu{
+    align-items: center;
+    display: flex;
+}
+.menu img{
+    width: 120px;
+    height: relative;
+}
+
+.intro p {
+    margin: 10px;
+}
+.titulo2 img {
+    position: absolute;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: relative;
+    margin-top: 5em;
+    background-color: white;
+
+}
+h1 {
+
+    color: black;
+    margin-top: 0;
+}
+h2 {
+    color: black;
+    margin-top: 1em;
+}
+.section1 img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: relative;
+    flex: 1;
+    
+}
+.section1{
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 5em;
+}
+.arrecife-img{
+    display: flex;
+
+}
+
+
+
+.intro {
+
+    position: relative;
+    height: relative;
+    margin: 15% ;
+    margin-right: 15% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em; /* Ajusta según tus necesidades */
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+}
+
+.ee{
+    display: flex;
+    background-color: #005e76;
+    margin-bottom: 0;
+    height: 500px;
+
+}
+
+.ee a{
+    color: white;
+}
+.ee p{
+    color: white;
+
+}
+.miInfo{
+    margin-top: 15em;
+    margin-left: 3em;
+    
+}
+.imagen-hover {
+    transition: transform 0.3s ease;
+}
+
+.imagen-hover:hover {
+    transform: scale(1.8); /* Cambia el valor de escala según lo desees */
+}
+.imagen-hover2 {
+    transition: transform 0.3s ease;
+}
+
+.imagen-hover2:hover {
+    transform: scale(1.1); /* Cambia el valor de escala según lo desees */
+}
+.roatan{
+    
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajuste para que la imagen tenga el ancho completo del contenedor */
+    height: auto; /* Ajuste para mantener la proporción de la imagen */
+}
+
+
+.contacto {
+    max-width: 300px;
+    margin-left: 55%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contacto h2{
+    color: white;
+}
+.cfgs{
+    
+    padding-bottom:5em;  
+    width: 100%;
+    height: relative;
+    display: flex;
+}
+.cfgs img{
+
+    width: 350px;
+    height:  auto;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+    }
+
+.boa img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.iguana img{
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+    
+.ciclo{
+   margin: 5%;
+    flex: 0,6;
+    width: 450px;
+    height:  relative;  
+
+}
+.ciclo img{
+    width: 450px;
+    height:  relative;  
+}
+.mapa{
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 15em;
+    background-color: white;
+}
+iframe {
+    margin-top: 0em;
+    margin-left:  15%;
+    margin-right: 15%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    width: 900px;
+    height:  300px; 
+}
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        label{
+            color: white;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-flora{
+    position: relative;
+    height: 300px; /* Altura del encabezado */
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('media/img/arrecife.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Opacidad de la imagen de fondo */
+    z-index: -1; /* Coloca la imagen de fondo detrás de todo */
+}
+
+h1 {
+    padding-top: 100px; /* Alinea el texto verticalmente */
+}
+
+.main-flora {
+    max-width: 100%;
+    padding-top: 200px; /* Deja espacio para el encabezado */
+    padding-bottom: 0; /* Espacio inferior */
+}
+.arre{
+    flex: 0.6;
+
+
+}
+.arrecife-img{
+    width: 100%;
+    margin: 5%;
+    
+}
+
+section {
+    padding: 50px;
+    margin-bottom: 20px; /* Espacio entre secciones */
+    background-color: white;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    
+    margin-top: 20px; /* Espacio entre texto e imagen */
+}
+
+
+@keyframes flotar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
