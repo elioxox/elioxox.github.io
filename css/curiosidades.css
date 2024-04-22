@@ -128,3 +128,23 @@ h1, h2 {
 .section img {  /* Merged styles for rounded images */
   border-radius: 20px;
   width: 3
+
+  @media (max-width: 768px) {
+  nav {
+    /* Ajustes de estilo para pantallas pequeñas */
+    position: static; /* Eliminar la posición fija */
+    width: 100%; /* Ancho completo */
+    display: flex; /* Cambiar a un diseño flexible */
+    flex-direction: column; /* Ordenar elementos verticalmente */
+  }
+
+  nav ul {
+    padding: 0; /* Eliminar padding lateral */
+    text-align: center; /* Centrar texto */
+  }
+
+  nav ul li {
+    display: block; /* Convertir elementos en bloque */
+    margin: 10px 0; /* Espaciado vertical */
+  }
+}
